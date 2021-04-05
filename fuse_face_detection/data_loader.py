@@ -2,7 +2,7 @@ import cv2,os
 import numpy as np
 from sklearn.model_selection import train_test_split
 from keras.utils import np_utils
-from fuse_face_dataset.download_extract import download_url, url
+from fuse_face_detection.download_extract import download_url, url
 import os
 
 def load_face_data():
