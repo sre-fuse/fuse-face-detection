@@ -6,7 +6,7 @@ from zipfile import ZipFile
 from random import shuffle
 from sklearn.model_selection import train_test_split
 from keras.utils import np_utils
-from fuse_face_dataset.download_extract import download_url, urls
+from fuse_face_detection.download_extract import download_url, urls
 
 def load_face_data(dataset_name='7-2P-dataset'):
     data_path = dataset_name
